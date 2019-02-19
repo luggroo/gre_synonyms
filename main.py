@@ -220,7 +220,7 @@ def main():
     game = Game(0, 16) #TODO everytime: put the section range you would like to study
     choice = ""
     while choice != 'q':
-        choice = input("欢迎来背单词，按s开始，按q退出，按m查看已掌握的单词，按n查看需加强复习的单词\n>>>")
+        choice = input("欢迎来背单词，输入s开始，输入q退出，输入m查看已掌握的单词，输入n查看需加强复习的单词\n>>>")
         if choice == 's':
             cls()
             game.getChoices()
